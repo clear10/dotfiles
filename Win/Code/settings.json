@@ -1,0 +1,40 @@
+{
+    "editor.detectIndentation": false,
+    "editor.cursorBlinking": "smooth",
+    "editor.renderIndentGuides": true,
+    "files.trimTrailingWhitespace": true,
+    "files.autoGuessEncoding": true,
+    "workbench.editor.enablePreview": false,
+    "editor.fontFamily": "'Myrica M', monospace",
+    "editor.fontSize": 16,
+    "editor.tabSize": 4,
+    "terminal.integrated.shell.windows": "", // TODO
+    "terminal.integrated.cwd": "", // TODO
+    "terminal.integrated.fontSize": 16,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/*.meta": true
+    },
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    "[scss]": {
+        "editor.tabSize": 2
+    },
+    "[erb]": {
+        "editor.tabSize": 2
+    },
+    "ruby.lint": {
+        "reek": false,
+        "rubocop": true,
+        "ruby": false, //Runs ruby -wc
+        "fasterer": true,
+        "debride": true,
+        "ruby-lint": false
+    },
+    "window.zoomLevel": 0
+}
