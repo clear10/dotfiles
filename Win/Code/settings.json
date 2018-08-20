@@ -37,5 +37,6 @@
         "ruby-lint": false
     },
     "window.zoomLevel": 0,
-    "git.enabled": false
+    "git.enabled": false,
+    "files.eol": "\n"
 }
