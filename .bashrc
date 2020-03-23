@@ -5,8 +5,6 @@
 # If not running interactively, don't do anything
 # default run fish
 
-export PATH="/home/linuxbrew/.linuxbrew/bin":"$PATH"
-
 case $- in
     *i*) exec fish;;
     *) return;;
