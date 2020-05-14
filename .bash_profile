@@ -3,5 +3,9 @@
 export PATH="/home/linuxbrew/.linuxbrew/bin":"$PATH"
 export PATH="/home/linuxbrew/.linuxbrew/sbin":"$PATH"
 
+if [ "$(umask)" = "0000" ]; then
+    umask 0022
+fi
+
 test -f ~/.profile && . ~/.profile
 test -f ~/.bashrc && . ~/.bashrc
