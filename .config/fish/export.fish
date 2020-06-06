@@ -1,2 +1,4 @@
 set -x TERM xterm-256color
 set -x CLOUDSDK_PYTHON python3
+set -x HOMEBREW_FORCE_BREWED_CURL 1
+set -x HOMEBREW_FORCE_BREWED_GIT 1
