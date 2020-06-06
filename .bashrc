@@ -6,7 +6,7 @@
 # default run fish
 
 case $- in
-    *i*) exec fish;;
+    *i*) exec /home/linuxbrew/.linuxbrew/bin/fish;;
     *) return;;
 esac
 
