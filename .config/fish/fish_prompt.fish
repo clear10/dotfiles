@@ -34,7 +34,7 @@ function fish_prompt
     set pcolor $bred
   end
 
-  set -l git_branch (git branch ^/dev/null | sed -n -e 's/^\* \(.*\)/\1/p')
+  set -l git_branch (git branch 2> /dev/null | sed -n -e 's/^\* \(.*\)/\1/p')
   set -l green (set_color green)
 
   # Top
