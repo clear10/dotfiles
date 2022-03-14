@@ -13,6 +13,6 @@ ln -sf ~/dotfiles/.config/fish/utils.fish ~/.config/fish/utils.fish
 ln -sf ~/dotfiles/.config/fish/export.fish ~/.config/fish/export.fish
 ln -sf ~/dotfiles/.config/fish/config.fish ~/.config/fish/config.fish
 
-ln -sf ~/dotfiles/.config/fish/fishfile ~/.config/fish/fishfile
+ln -sf ~/dotfiles/.config/fish/fish_plugins ~/.config/fish/fish_plugins
 ln -sf ~/dotfiles/.config/fish/fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish
 
