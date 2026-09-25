@@ -6,4 +6,6 @@ set -x HOMEBREW_FORCE_BREWED_GIT 1
 set -x GOPATH $HOME/go
 set -x DOTNET_ROOT $HOME/.dotnet
 
+set -x PATH /opt/homebrew/opt/gnu-tar/libexec/gnubin $PATH
+set -x PATH /opt/homebrew/opt/grep/libexec/gnubin $PATH
 set -x PATH $GOPATH/bin $PATH
